@@ -4,7 +4,7 @@ using SimpleJSON;
 namespace WinnitronSetup {
 
     class ApiKeyConfig {
-        private string optionsFile;
+        public string optionsFile;
         private JSONNode fullOptions;
         private string apiKey;
 
@@ -25,8 +25,6 @@ namespace WinnitronSetup {
         }
 
         public void ChooseAction() {
-            WConsole.WriteLine("Options file is located at " + optionsFile + "\n");
-
             WConsole.WriteLine("Your Winnitron is currently using this API key:");
             WConsole.WriteLine("\n\t" + apiKey);
 

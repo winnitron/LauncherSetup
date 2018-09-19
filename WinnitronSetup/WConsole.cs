@@ -15,6 +15,12 @@ namespace WinnitronSetup {
             Console.WriteLine(msg);
         }
 
+        public static void Congrats(string msg) {
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine(msg);
+            Console.ResetColor();
+        }
+
         public static string Prompt(string txt = "") {
             Console.Write(txt + "> ");
             return Console.ReadLine().ToLower();
