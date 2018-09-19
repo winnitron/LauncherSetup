@@ -62,7 +62,10 @@ namespace WinnitronSetup
         }
 
         private void Save() {
-            // TODO: write json file
+            JSONObject json = new JSONObject();
+            json.Add("userDataPath", dataDir);
+
+            File.WriteAllText(json.ToString(2));
         }
     }
 }
