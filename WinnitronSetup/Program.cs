@@ -13,8 +13,8 @@ namespace WinnitronSetup {
             UserdataLocationConfig dataLoc = new UserdataLocationConfig();
             dataLoc.ChooseAction();
 
-            // TODO:
-            // ApiKeyConfig
+            ApiKeyConfig api = new ApiKeyConfig(dataLoc.dataDir);
+            api.ChooseAction();
         }
     }
 }

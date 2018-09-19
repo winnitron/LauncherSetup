@@ -17,6 +17,9 @@ namespace WinnitronSetup {
             } catch (DirectoryNotFoundException e) {
                 WConsole.Warn(e.Message);
                 WConsole.WriteLine("\n");
+            } catch (FileNotFoundException e) {
+                WConsole.Warn(e.Message);
+                WConsole.WriteLine("\n");
             }
         }
 
