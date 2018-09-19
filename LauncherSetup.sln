@@ -1,7 +1,7 @@
 
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinnitronSetup", "WinnitronSetup\WinnitronSetup.csproj", "{60EEDB7A-BFEB-493C-AAA2-C9B76A9CEBFA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LauncherSetup", "WinnitronSetup\LauncherSetup.csproj", "{60EEDB7A-BFEB-493C-AAA2-C9B76A9CEBFA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,5 +13,10 @@ Global
 		{60EEDB7A-BFEB-493C-AAA2-C9B76A9CEBFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{60EEDB7A-BFEB-493C-AAA2-C9B76A9CEBFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{60EEDB7A-BFEB-493C-AAA2-C9B76A9CEBFA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		Policies = $0
+		$0.StandardHeader = $1
+		$0.VersionControlPolicy = $2
 	EndGlobalSection
 EndGlobal

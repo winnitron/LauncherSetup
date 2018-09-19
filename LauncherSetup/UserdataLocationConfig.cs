@@ -1,7 +1,7 @@
 using System.IO;
 using SimpleJSON;
 
-namespace WinnitronSetup {
+namespace LauncherSetup {
 
     class UserdataLocationConfig {
         private string locFile = "Assets/Options/winnitron_userdata_path.json";

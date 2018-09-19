@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace WinnitronSetup {
+namespace LauncherSetup {
 
     class Program {
 

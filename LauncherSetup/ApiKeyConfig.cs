@@ -1,7 +1,7 @@
 using System.IO;
 using SimpleJSON;
 
-namespace WinnitronSetup {
+namespace LauncherSetup {
 
     class ApiKeyConfig {
         public string optionsFile;
