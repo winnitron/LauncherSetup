@@ -4,7 +4,7 @@ using SimpleJSON;
 namespace LauncherSetup {
 
     class UserdataLocationConfig {
-        private string locFile = "Assets/Options/winnitron_userdata_path.json";
+        private string locFile = "WINNITRON_Data/Options/winnitron_userdata_path.json";
         private string defaultDataDir = "C:/WINNITRON_UserData";
         public string dataDir;
 
@@ -27,7 +27,7 @@ namespace LauncherSetup {
             WConsole.WriteLine("The Winnitron User Data folder is currently configured to:");
             WConsole.WriteLine("\n\t" + dataDir);
 
-            if (!File.Exists(dataDir)) {
+            if (!Directory.Exists(dataDir)) {
                 WConsole.Warn("This folder does not exist!");
             }
 
